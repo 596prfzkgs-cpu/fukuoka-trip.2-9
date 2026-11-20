@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172b3a">
+  <meta name="description" content="2027년 2월 9일–11일 후쿠오카 여행 준비, 체크리스트, 예산 및 여행 정보">
+  <title>FUKUOKA TRIP · 2027</title>
+  <style>
+    :root{--ink:#172b3a;--muted:#667783;--paper:#f5f4ef;--card:#fff;--line:#e4e7e5;--accent:#c56c4b;--soft:#f4e8e1;--green:#32745d;--shadow:0 12px 34px rgba(23,43,58,.08)}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Noto Sans KR",sans-serif;line-height:1.6}
+    a{color:#a44e32;text-underline-offset:3px} button,input,textarea{font:inherit}
+    .wrap{max-width:980px;margin:auto;padding:20px 16px 64px}
+    .hero{position:relative;overflow:hidden;border-radius:28px;padding:30px 26px;color:white;background:linear-gradient(125deg,rgba(17,39,54,.94),rgba(36,69,79,.82)),radial-gradient(circle at 85% 15%,#c56c4b,transparent 35%);box-shadow:var(--shadow)}
+    .eyebrow{font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;color:#f0c9b8;font-weight:800}
+    h1{font-size:clamp(2rem,7vw,4.2rem);line-height:1.04;letter-spacing:-.055em;margin:14px 0 10px}
+    .hero p{margin:0;color:#e4e9e9}.hero .tag{display:inline-block;margin-top:20px;padding:6px 11px;border:1px solid #ffffff55;border-radius:999px;font-size:.78rem}
+    .datebar{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.datebar span{background:#ffffff18;border:1px solid #ffffff30;border-radius:12px;padding:9px 12px;font-size:.85rem}
+    nav{position:sticky;top:0;z-index:5;display:flex;gap:7px;overflow:auto;padding:12px 0;background:rgba(245,244,239,.94);backdrop-filter:blur(12px)}
+    nav a{white-space:nowrap;text-decoration:none;color:var(--ink);font-size:.82rem;font-weight:750;padding:8px 12px;border:1px solid var(--line);border-radius:999px;background:white}
+    section{scroll-margin-top:76px;margin-top:22px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:12px;margin:0 2px 12px}
+    h2{font-size:1.35rem;letter-spacing:-.03em;margin:0}.sub{font-size:.82rem;color:var(--muted);margin:3px 0 0}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:18px;box-shadow:var(--shadow)}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.stat{background:#f8f8f5;border-radius:15px;padding:14px}.stat small{display:block;color:var(--muted);font-size:.75rem}.stat strong{font-size:1.1rem}
+    .checklist{display:grid;gap:9px}.check{display:flex;align-items:flex-start;gap:10px;padding:10px 11px;border:1px solid var(--line);border-radius:12px;background:#fff}
+    .check input{width:19px;height:19px;accent-color:var(--green);margin:2px 0 0;flex:none}.check.done span{text-decoration:line-through;color:#89949a}
+    .progress{height:8px;background:#edf0ed;border-radius:99px;overflow:hidden;margin:12px 0}.progress>i{display:block;height:100%;width:0;background:var(--green);transition:width .2s}
+    .progressline{display:flex;justify-content:space-between;font-size:.82rem;color:var(--muted)}
+    .btn{border:0;border-radius:11px;padding:9px 13px;background:var(--ink);color:white;font-weight:700;cursor:pointer}.btn.secondary{background:#eef1ef;color:var(--ink);border:1px solid var(--line)}.btn.small{font-size:.78rem;padding:7px 10px}
+    .budget-row{display:grid;grid-template-columns:1fr minmax(110px,180px);gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}.budget-row:last-child{border:0}
+    input[type=number],textarea{width:100%;border:1px solid var(--line);border-radius:10px;padding:10px;background:#fff;color:var(--ink)}textarea{min-height:100px;resize:vertical}
+    .total{display:flex;justify-content:space-between;align-items:center;padding:15px;background:var(--soft);border-radius:14px;margin-top:14px}.total strong{font-size:1.5rem;color:#8d452e}
+    .steps{counter-reset:step;display:grid;gap:12px}.step{position:relative;padding:0 0 0 43px}.step:before{counter-increment:step;content:counter(step);position:absolute;left:0;top:0;width:29px;height:29px;border-radius:50%;display:grid;place-items:center;background:var(--soft);color:#91472f;font-weight:800}.step b{display:block}.note{border-left:4px solid var(--accent);background:#fbf4ef;padding:12px 14px;border-radius:0 12px 12px 0;font-size:.88rem}
+    .links{display:grid;gap:10px}.linkrow{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px;border:1px solid var(--line);border-radius:13px}.linkrow b{display:block}.linkrow small{color:var(--muted)}.linkrow a{font-weight:750;white-space:nowrap}
+    .coupon{background:#172b3a;color:white;border-radius:18px;padding:18px}.coupon p{color:#d9e0e1;margin:.4rem 0}.coupon a{color:#ffd2bd}
+    .day{border-left:3px solid var(--accent);padding:3px 0 4px 14px;margin:12px 0}.day small{color:var(--muted);font-weight:700}.day b{display:block;font-size:1.1rem}
+    footer{text-align:center;color:var(--muted);font-size:.78rem;padding:28px 10px 0}
+    @media(max-width:600px){.wrap{padding:12px 12px 48px}.hero{padding:25px 20px;border-radius:22px}.grid{grid-template-columns:1fr 1fr}.card{padding:15px}.budget-row{grid-template-columns:1fr 115px}.section-head{align-items:start}}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <div class="eyebrow">Travel journal · Japan</div>
+    <h1>FUKUOKA<br>TRIP 2027</h1>
+    <p>이구동성이구아나이구… 후쿠오카 여행!</p>
+    <div class="tag">2박 3일 · 2027.02.09 TUE – 02.11 THU</div>
+    <div class="datebar"><span>02.09 화 · DAY 1</span><span>02.10 수 · DAY 2</span><span>02.11 목 · DAY 3</span></div>
+  </header>
+
+  <nav aria-label="페이지 메뉴">
+    <a href="#prep">사전 준비</a><a href="#packing">챙길 것</a><a href="#schedule">일정</a><a href="#budget">예산</a><a href="#tax">면세 절차</a><a href="#donki">돈키호테</a><a href="#links">링크 모음</a>
+  </nav>
+
+  <section id="prep">
+    <div class="section-head"><div><h2>사전 준비</h2><p class="sub">체크 상태는 이 기기의 브라우저에 저장됩니다.</p></div><button class="btn secondary small" onclick="resetChecks('prep')">초기화</button></div>
+    <div class="card"><div class="progressline"><b>준비 진행률</b><span id="prep-count">0 / 8</span></div><div class="progress"><i id="prep-bar"></i></div><div class="checklist" id="prep-list"></div></div>
+  </section>
+
+  <section id="packing">
+    <div class="section-head"><div><h2>챙길 것</h2><p class="sub">개인별 짐 목록을 확인하세요.</p></div><button class="btn secondary small" onclick="resetChecks('packing')">초기화</button></div>
+    <div class="card"><div class="progressline"><b>짐 준비 진행률</b><span id="packing-count">0 / 12</span></div><div class="progress"><i id="packing-bar"></i></div><div class="checklist" id="packing-list"></div></div>
+  </section>
+
+  <section id="schedule">
+    <div class="section-head"><div><h2>여행 일정</h2><p class="sub">세부 동선과 예약 정보는 추후 추가하세요.</p></div></div>
+    <div class="card">
+      <div class="day"><small>2027.02.09 · TUESDAY</small><b>DAY 1 — 후쿠오카 도착</b><span>이동 및 체크인 · 일정 미정</span></div>
+      <div class="day"><small>2027.02.10 · WEDNESDAY</small><b>DAY 2 — 후쿠오카 자유 일정</b><span>관광 및 쇼핑 · 일정 미정</span></div>
+      <div class="day"><small>2027.02.11 · THURSDAY</small><b>DAY 3 — 하카타 쇼핑 및 귀국</b><span>공항 이동 전 면세품·수하물 확인</span></div>
+      <div class="note">3일차 하카타에서 구매한 물품은 출국 세관 확인이 필요한 경우를 고려해 위탁 수하물에 넣기 전에 절차를 확인하세요.</div>
+    </div>
+  </section>
+
+  <section id="budget">
+    <div class="section-head"><div><h2>1인당 예산</h2><p class="sub">단위: 만원 · 기념품 별도</p></div><button class="btn secondary small" onclick="clearBudget()">초기화</button></div>
+    <div class="card">
+      <div class="budget-row"><b>항공권</b><input type="number" min="0" step="0.1" data-budget="flight" placeholder="금액 입력"></div>
+      <div class="budget-row"><b>숙소비</b><input type="number" min="0" step="0.1" data-budget="hotel" placeholder="금액 입력"></div>
+      <div class="budget-row"><b>교통비</b><input type="number" min="0" step="0.1" data-budget="transport" placeholder="금액 입력"></div>
+      <div class="budget-row"><b>식비</b><input type="number" min="0" step="0.1" data-budget="food" placeholder="금액 입력"></div>
+      <div class="budget-row"><b>쇼핑·기타</b><input type="number" min="0" step="0.1" data-budget="other" placeholder="금액 입력"></div>
+      <div class="total"><span><b>예산 합계</b><br><small>기념품 제외</small></span><strong><span id="budget-total">0</span> 만원</strong></div>
+      <p class="sub">숙소비는 12월 24일까지 수합 예정.</p>
+    </div>
+  </section>
+
+  <section id="tax">
+    <div class="section-head"><div><h2>일본 면세 절차</h2><p class="sub">여행 전 공식 안내 재확인 필수</p></div></div>
+    <div class="card">
+      <div class="note"><b>중요한 확인 사항</b><br>아래는 여행 준비 메모를 정리한 내용입니다. 2026년 11월 1일 개정 및 환급 방식, 공항 키오스크·온라인 처리 여부 등은 실제 출국 시점의 일본 정부·공항 공식 안내로 반드시 재확인하세요. 이 웹앱은 해당 제도의 시행 여부를 독립적으로 검증한 법률·세무 안내가 아닙니다.</div>
+      <h3>메모에 기재된 절차</h3>
+      <div class="steps">
+        <div class="step"><b>매장 결제</b>여권 제시, 세금 포함가 결제, 환급 수령 방법 등록. 메모상 면세 대상은 세금 제외 합계 5,000엔 이상.</div>
+        <div class="step"><b>구매 후 보관</b>면세 대상 물품의 사용·소비·반출 요건을 매장과 공식 안내에서 확인하고 영수증 보관.</div>
+        <div class="step"><b>출국 당일 세관 확인</b>수하물 위탁 전에 세관 확인이 필요한지, 물품 제시 방법과 장소를 공항 안내에서 확인.</div>
+        <div class="step"><b>판정 및 환급</b>세관 확인 결과와 환급 수령 방식·시기는 구매 매장 및 사업자 안내에 따름.</div>
+      </div>
+      <h3>주의사항 메모</h3>
+      <ul>
+        <li>구매자 본인이 직접 반출해야 하는지 확인.</li>
+        <li>영수증과 구매 물품을 함께 확인할 수 있도록 보관.</li>
+        <li>3일차 하카타 구매품은 수하물 위탁 전 절차를 확인하고 별도 보관.</li>
+        <li>공항 도착 시간을 여유 있게 확보.</li>
+      </ul>
+      <p class="sub">공식 확인: <a href="https://www.customs.go.jp/english/" target="_blank" rel="noopener">Japan Customs</a> · <a href="https://www.fukuoka-airport.jp/en/" target="_blank" rel="noopener">Fukuoka Airport</a> · <a href="https://www.mlit.go.jp/kankocho/" target="_blank" rel="noopener">Japan Tourism Agency</a></p>
+    </div>
+  </section>
+
+  <section id="donki">
+    <div class="section-head"><div><h2>돈키호테 할인쿠폰</h2><p class="sub">제공된 2026.11.13 기준 메모</p></div></div>
+    <div class="coupon">
+      <div class="eyebrow">DON QUIJOTE · COUPON</div>
+      <h3>쇼핑 전 쿠폰 조건 확인</h3>
+      <p>메모상 면세 구매 시 세금 포함 11,000엔 이상 최대 5%, 33,000엔 이상 최대 7% 추가 할인.</p>
+      <a href="https://www.donki.com/" target="_blank" rel="noopener">돈키호테 공식 홈페이지 확인 →</a>
+    </div>
+    <div class="card" style="margin-top:12px">
+      <b>준비물 및 유의사항</b>
+      <ul>
+        <li>여권 원본</li><li>쿠폰 페이지의 실시간 바코드 화면 (스크린샷 사용 불가라는 메모)</li>
+        <li>다른 할인·매장 쿠폰·majica 카드 중복 여부 확인</li>
+        <li>주류, 담배, POSA 카드, 게임기 본체 및 일부 고가 상품 등 제외 여부 확인</li>
+      </ul>
+      <b>메모된 사용 순서</b>
+      <ol>
+        <li>면세 계산대에서 결제 전 첫 번째 바코드 스캔</li>
+        <li>‘다음으로’ 선택 후 질문 창에서 ‘네’ 선택</li>
+        <li>직원이 ‘소계’ 입력 후 두 번째 바코드 스캔</li>
+        <li>‘닫기’로 종료 후 결제</li>
+      </ol>
+      <p class="sub">할인율·중복 조건·제외 품목·스캔 순서는 변경될 수 있으므로 결제 전 해당 매장의 최신 쿠폰 안내를 확인하세요.</p>
+    </div>
+  </section>
+
+  <section id="links">
+    <div class="section-head"><div><h2>링크 모음</h2><p class="sub">여행에 필요한 공식 사이트 및 앱</p></div></div>
+    <div class="card links">
+      <div class="linkrow"><div><b>Visit Japan Web</b><small>일본 입국·세관 관련 공식 서비스</small></div><a href="https://www.vjw.digital.go.jp/" target="_blank" rel="noopener">열기 ↗</a></div>
+      <div class="linkrow"><div><b>Google Maps</b><small>장소 검색 및 길 찾기</small></div><a href="https://maps.google.com/" target="_blank" rel="noopener">열기 ↗</a></div>
+      <div class="linkrow"><div><b>Japan Travel by NAVITIME</b><small>일본 교통·여행 경로 검색</small></div><a href="https://japantravel.navitime.com/en/" target="_blank" rel="noopener">열기 ↗</a></div>
+      <div class="linkrow"><div><b>Google 번역</b><small>일본어 번역</small></div><a href="https://translate.google.com/" target="_blank" rel="noopener">열기 ↗</a></div>
+      <div class="linkrow"><div><b>돈키호테</b><small>매장 및 쿠폰 관련 공식 정보</small></div><a href="https://www.donki.com/" target="_blank" rel="noopener">열기 ↗</a></div>
+      <div class="linkrow"><div><b>후쿠오카 공항</b><small>공항 이용 및 출국 정보</small></div><a href="https://www.fukuoka-airport.jp/en/" target="_blank" rel="noopener">열기 ↗</a></div>
+      <div class="linkrow"><div><b>인스타그램 참고</b><small>여행 참고 게시물</small></div><span class="sub">링크 추가 예정</span></div>
+    </div>
+  </section>
+
+  <section id="memo">
+    <div class="section-head"><div><h2>추가 메모</h2><p class="sub">작성한 내용은 현재 브라우저에 저장됩니다.</p></div></div>
+    <div class="card"><textarea id="notes" placeholder="맛집, 예약 정보, 인스타그램 링크, 쇼핑 목록 등을 기록하세요."></textarea><p class="sub">메모와 예산·체크 상태는 기기별 브라우저에 저장되며, 다른 사람과 자동 동기화되지 않습니다.</p></div>
+  </section>
+  <footer>FUKUOKA TRIP · 2027.02.09—02.11<br>여행 정보와 제도는 출국 전 공식 출처에서 최신 내용을 확인하세요.</footer>
+</div>
+<script>
+const lists={
+ prep:["항공권 예약 및 확인","숙소 예약 및 비용 정산","여권 유효기간 확인","Visit Japan Web 등록","여행자보험 확인","환전 및 결제수단 준비","로밍·eSIM 준비","여행 일정 및 맛집 저장"],
+ packing:["여권","항공권 및 예약 내역","지갑·카드·현금","휴대폰·충전기","보조배터리","어댑터·케이블","상비약","세면도구·화장품","의류·속옷·양말","편한 신발","우산·접이식 가방","기타 개인 준비물"]
+};
+const key="fukuoka-trip-2027-v1";
+let state={};
+try{state=JSON.parse(localStorage.getItem(key)||"{}")}catch(e){state={}}
+function save(){localStorage.setItem(key,JSON.stringify(state))}
+function renderList(type){
+ const root=document.getElementById(type+"-list");root.innerHTML="";
+ lists[type].forEach((label,i)=>{
+  const el=document.createElement("label");el.className="check"+(state[type]?.includes(i)?" done":"");
+  const cb=document.createElement("input");cb.type="checkbox";cb.checked=!!state[type]?.includes(i);
+  cb.addEventListener("change",()=>{state[type]=state[type]||[];state[type]=cb.checked?[...state[type],i]:state[type].filter(x=>x!==i);save();renderList(type);updateProgress(type)});
+  const span=document.createElement("span");span.textContent=label;el.append(cb,span);root.append(el);
+ });updateProgress(type)
+}
+function updateProgress(type){const n=state[type]?.length||0,total=lists[type].length;document.getElementById(type+"-count").textContent=`${n} / ${total}`;document.getElementById(type+"-bar").style.width=(n/total*100)+"%"}
+function resetChecks(type){if(confirm("체크 상태를 초기화할까요?")){state[type]=[];save();renderList(type)}}
+document.querySelectorAll("[data-budget]").forEach(input=>{input.value=state.budget?.[input.dataset.budget]??"";input.addEventListener("input",()=>{state.budget=state.budget||{};state.budget[input.dataset.budget]=input.value;save();updateBudget()})});
+function updateBudget(){let sum=0;document.querySelectorAll("[data-budget]").forEach(i=>sum+=Number(i.value)||0);document.getElementById("budget-total").textContent=sum.toLocaleString("ko-KR",{maximumFractionDigits:1})}
+function clearBudget(){if(confirm("예산 입력을 초기화할까요?")){document.querySelectorAll("[data-budget]").forEach(i=>i.value="");state.budget={};save();updateBudget()}}
+const notes=document.getElementById("notes");notes.value=state.notes||"";notes.addEventListener("input",()=>{state.notes=notes.value;save()});
+["prep","packing"].forEach(renderList);updateBudget();
+</script>
+</body>
+</html>
